@@ -6,6 +6,8 @@ import { getFireteamGear } from "@/lib/d2";
 import { useState } from "react";
 import { Suspense } from "react";
 
+export const maxDuration = 30;
+
 export default function Home() {
 
   const [gear, setGear] = useState(null);
